@@ -1,10 +1,8 @@
 $:.push File.expand_path("../lib", __FILE__)
 
-require "administrate/field/color"
-
 Gem::Specification.new do |gem|
   gem.name = "administrate-field-color"
-  gem.version = Administrate::Field::Color::VERSION
+  gem.version = "0.0.1"
   gem.authors = ["Dan Barber"]
   gem.email = ["hello@danbarber.me"]
   gem.homepage = "https://github.com/danbee/administrate_field_color"

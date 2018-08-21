@@ -1,10 +1,8 @@
 $:.push File.expand_path("../lib", __FILE__)
 
-require "administrate/field/color"
-
 Gem::Specification.new do |gem|
   gem.name = "administrate-field-color"
-  gem.version = Administrate::Field::Color::VERSION
+  gem.version = "0.0.1"
   gem.authors = ["Dan Barber"]
   gem.email = ["hello@danbarber.me"]
   gem.homepage = "https://github.com/danbee/administrate_field_color"
@@ -16,6 +14,5 @@ Gem::Specification.new do |gem|
   gem.files = `git ls-files`.split("\n")
   gem.test_files = `git ls-files -- {test,spec,features}/*`.split("\n")
 
-  gem.add_dependency "administrate", ">= 0.2.0.rc1", "< 0.3.0"
-  gem.add_dependency "rails", "~> 4.2"
+  gem.add_dependency "administrate", ">= 0.2.0.rc1"
 end
